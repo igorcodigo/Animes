@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title translate="yes">Anime Schedule</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h2 translate="yes">Add Anime to Schedule</h2>
+    <form id="animeForm">
+        <div class="form-group">
+            <label for="animeTitle" translate="yes">Anime Title:</label>
+            <input type="text" id="animeTitle" required>
+        </div>
+        <div class="form-group">
+            <label for="animeDay" translate="yes">Day:</label>
+            <select id="animeDay">
+                <option value="Monday" translate="yes">Monday</option>
+                <option value="Tuesday" translate="yes">Tuesday</option>
+                <option value="Wednesday" translate="yes">Wednesday</option>
+                <option value="Thursday" translate="yes">Thursday</option>
+                <option value="Friday" translate="yes">Friday</option>
+                <option value="Saturday" translate="yes">Saturday</option>
+                <option value="Sunday" translate="yes">Sunday</option>
+            </select>
+        </div>
+        <button class="btn" type="submit" translate="yes">Submit</button>
+    </form>
+
+    <h2 translate="yes">Anime Schedule</h2>
+    <table id="animeSchedule">
+        <tr>
+            <th translate="yes">Monday</th>
+            <th translate="yes">Tuesday</th>
+            <th translate="yes">Wednesday</th>
+            <th translate="yes">Thursday</th>
+            <th translate="yes">Friday</th>
+            <th translate="yes">Saturday</th>
+            <th translate="yes">Sunday</th>
+        </tr>
+        <tr id="scheduleRow">
+            <td id="Monday"></td>
+            <td id="Tuesday"></td>
+            <td id="Wednesday"></td>
+            <td id="Thursday"></td>
+            <td id="Friday"></td>
+            <td id="Saturday"></td>
+            <td id="Sunday"></td>
+        </tr>
+    </table>
+    <script src="./scripts.js"></script>
+</body>
+</html>
