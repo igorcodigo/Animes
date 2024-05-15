@@ -38,9 +38,12 @@ cd seu-repositorio
 ## Atributo translate do HTML5
 Este projeto utiliza o atributo translate do HTML5 para permitir a tradução automática de partes da página. Elementos marcados com translate="yes" serão automaticamente traduzidos por ferramentas de tradução, como o Google Translate, enquanto elementos marcados com translate="no" não serão traduzidos.
 
-Exemplo de uso:
+Exemplo de uso: 
+```
 <h2 translate="yes">Add Anime to Schedule</h2>
 <div translate="no">Título do Anime não será traduzido</div>
+```
+
 
 ## Licença / License
 Este projeto está licenciado sob a Licença MIT
