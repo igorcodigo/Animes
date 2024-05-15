@@ -29,7 +29,7 @@ O projeto consiste em três arquivos principais:
 
 1. Clone o repositório para o seu ambiente local.
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/igorcodigo/Animes.git
 2. Navegue até o diretório do projeto.
 cd seu-repositorio
 
