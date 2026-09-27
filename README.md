@@ -1,5 +1,9 @@
 # Anime Schedule
 
+<!-- repos-pai:inicio -->
+> **Repositório pai:** [`Projetos_Em_Inatividade__Arquivos_Inativos_Por_Ano__2024`](https://github.com/igorcodigo/Projetos_Em_Inatividade__Arquivos_Inativos_Por_Ano__2024) — pasta `Projetos_Em_Inatividade/Arquivos_Inativos_Por_Ano/2024`
+<!-- repos-pai:fim -->
+
 ## Descrição
 
 Anime Schedule é uma aplicação web simples que permite aos usuários adicionar animes a uma agenda semanal. Os usuários podem especificar o título do anime e o dia da semana em que ele será exibido. A aplicação salva a agenda no armazenamento local do navegador para que as informações sejam preservadas entre as sessões.
